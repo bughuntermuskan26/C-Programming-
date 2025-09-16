@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,sum,subtraction,divide,multiply,module;
+printf("Enter the value a");
+scanf("%d",&a);
+printf("Enter the value b");
+scanf("%d",&b);
+sum=a+b;
+printf("sum of value %d\n",sum);
+subtraction=a-b;
+printf("sub of value %d\n",subtraction);
+divide=a/b;
+printf("divide of value %d\n",divide);
+multiply=a*b;
+printf("multiply of value %d\n",multiply);
+module=a%b;
+printf("module of value %d\n",module);
+    return 0;
+}
