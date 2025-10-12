@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+    int num;
+    printf("Enter  any num:");
+    scanf("%d",&num);
+    if(num%2==0)
+    {
+        if(num%3==0)
+        {
+        printf("number is even and also divisible by 3.");
+        }
+        else
+        {
+        printf("number is even But not divisible by 3.");
+        }
+    }
+    else
+       {
+        printf("odd number");
+       }
+    return 0;
+}
