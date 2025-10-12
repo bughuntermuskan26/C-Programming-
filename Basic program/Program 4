@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char a[10] = "Bhopal";
+    char b[10] = "Delhi";
+    char c[10] = "Delhi";
+
+    printf("%d\n", strcmp(a, b));
+    printf("%d\n", strcmp(a, c));  
+    printf("%d\n", strcmp(c, a));  
+    return 0;
+}
