@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int pin = 1234, userPin;
+    float balance = 5000;
+
+    printf("Enter PIN: ");
+    scanf("%d", &userPin);
+
+    if(userPin == pin)
+    {
+        printf("Access Granted\n");
+        printf("Your Balance: %.2f\n", balance);
+    }
+    else
+    {
+        printf("Wrong PIN! Access Denied\n");
+    }
+
+    return 0;
+}
